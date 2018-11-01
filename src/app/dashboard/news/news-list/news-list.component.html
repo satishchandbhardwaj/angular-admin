@@ -1,0 +1,14 @@
+   <ul class="nav">
+	 <li class="nav-item" *ngFor="let news of news$ | async"
+	      [class.selected]="news.id === selectedId">
+	      <a [routerLink]="[news.id]">
+	        {{ news.name }}
+	      </a>
+
+	      <span>&nbsp; | &nbsp;</span>
+	    </li> 
+
+</ul>
+
+  <router-outlet></router-outlet>
+

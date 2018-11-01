@@ -1,0 +1,43 @@
+
+.sidemenu{
+	height: 100%;
+	position: fixed;
+	background: #2c2e3e;
+	width: 200px;
+}
+.dashMianCon{
+	width: 100%;
+	margin-left: 200px;
+}
+.dashHeader{
+	
+	background: #FFFFFF;
+	/*height: 70px;
+	box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.1);*/
+}
+.sidemenu_header{
+	height: 70px;
+
+}
+.main_container{
+	padding: 40px;
+}
+.sm_ul ul{
+	margin: 0px;
+	padding: 0px;
+}
+.sm_ul ul li{
+	list-style: none;
+	
+	transition: all 0.5s linear;
+}
+.sm_ul ul li:hover{
+	background: #171923;
+}
+.sm_ul ul li a{
+	display: block;
+	text-decoration: none;
+	color: #868aa8;
+	font-size: 15px;
+	padding: 10px 20px ;
+}

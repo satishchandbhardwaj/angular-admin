@@ -1,0 +1,13 @@
+<div class="row" [@listStagger] = "getnews">
+  <div class="col-md-3 cardlist" *ngFor="let getnews of getnews.articles">
+      <div class="card">
+        <img class="card-img-top" src="{{getnews.urlToImage}}" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">{{getnews.title}}</h4>
+          <p class="card-text">{{getnews.description}}</p>
+          <a href="{{getnews.url}}" target="-blank" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+  </div>
+
+
